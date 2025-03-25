@@ -2,9 +2,10 @@
   "name": "backend01",
   "version": "1.0.0",
   "description": "project in backend javascript",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,8 @@
     "chai"
   ],
   "author": "Anurag Sharma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
